@@ -22,6 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "react-app-rewired start",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "pretest": "npx scrypt-cli compile",
